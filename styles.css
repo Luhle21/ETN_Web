@@ -156,6 +156,10 @@ figcaption {
 
 }
 
+#Weekpage img {
+    align-content: center;
+}
+
 .row {
     margin: 8px -16px;
 }
@@ -182,7 +186,7 @@ figcaption {
 
 /* Content */
 .content {
-    background-color: #FED49A;
+    background-color: #f8c47b;
     border-radius: 30px;
     padding: 10px;
 
