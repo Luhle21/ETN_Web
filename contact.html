@@ -28,62 +28,33 @@
         <hr/>
 
         <main id="Contactpage">
-          <div>
-            <h1>Contact US </h1>
-          </div>
-          <div class="contact_us_6">
-            <div class="responsive-container-block container">
-              <form class="form-box">
-                <div class="container-block form-wrapper">
-                  <div class="mob-text">
-                    <p class="text-blk contactus-head">
-                      Get in Touch
-                    </p>
-                    <p class="text-blk contactus-subhead">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis diam lectus sapien.
-                    </p>
-                  </div>
-                  <div class="responsive-container-block" id="i2cbk">
-                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-3">
-                      <p class="text-blk input-title">
-                        FIRST NAME
-                      </p>
-                      <input class="input" id="ijowk-3" name="FirstName" placeholder="Please enter first name...">
-                    </div>
-                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ip1yp">
-                      <p class="text-blk input-title">
-                        EMAIL
-                      </p>
-                      <input class="input" id="ipmgh-3" name="Email" placeholder="Please enter email...">
-                    </div>
-                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ih9wi">
-                      <p class="text-blk input-title">
-                        PHONE NUMBER
-                      </p>
-                      <input class="input" id="imgis-3" name="PhoneNumber" placeholder="Please enter phone number...">
-                    </div>
-                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-3">
-                      <p class="text-blk input-title">
-                        WHAT DO YOU HAVE IN MIND ?
-                      </p>
-                      <textarea class="textinput" id="i5vyy-3" placeholder="Please enter query..."></textarea>
-                    </div>
-                  </div>
-                  <button class="submit-btn" id="w-c-s-bgc_p-1-dm-id-2">
-                    Submit
-                  </button>
-                </div>
-              </form>
-              <div class="responsive-cell-block wk-desk-7 wk-ipadp-12 wk-tab-12 wk-mobile-12" id="i772w">
-                <div class="map-part">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.477047185305!2d27.873880075506058!3d-26.083341977151218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e959ef5277b96a7%3A0xc4aa15508f8e5e8c!2sIIE%20MSA!5e0!3m2!1sen!2sza!4v1727118061326!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-              </div>
-              </div>
-            </div>
-          
-          
-          </div>  
+          <h1>Contact US </h1>
+          <!--contact container-->
+            <div id="contactContainer">
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="map">
+            <h2>Our Location</h2>
+            <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.4770464857484!2d27.876455!3d-26.083342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e959ef5277b96a7%3A0xc4aa15508f8e5e8c!2sIIE%20MSA!5e0!3m2!1sen!2sza!4v1729953692221!5m2!1sen!2sza" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+         
         </main>
 
         <footer>
