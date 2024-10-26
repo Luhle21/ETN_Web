@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #bf279b;
+    background-color: #36055a
 }
 
 
@@ -381,7 +381,7 @@ figcaption {
 
 .contact_us_6 .submit-btn {
     width: 98%;
-    background-color: #03a9f4;
+    background-color: #36055a;
     height: 60px;
     font-size: 20px;
     font-weight: 700;
@@ -489,6 +489,27 @@ figcaption {
     margin-bottom: 20px;
     margin-left: 0px;
 }
+
+.contact_us_6 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    width: 230px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact_us_6 .social-media-links.mob {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
 
 
 footer {
